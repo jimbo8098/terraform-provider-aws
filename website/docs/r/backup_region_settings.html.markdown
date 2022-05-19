@@ -24,6 +24,7 @@ resource "aws_backup_region_settings" "test" {
     "FSx"             = true
     "Neptune"         = true
     "RDS"             = true
+    "S3"              = true
     "Storage Gateway" = true
     "VirtualMachine"  = true
   }
